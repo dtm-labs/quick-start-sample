@@ -14,8 +14,8 @@ import (
 )
 
 var commands = map[string]func(){
-	"dtmcli":        dtmcliqs.Main,
-	"dtmgrpc":       dtmgrpcqs.Main,
+	"dtmcli-qs":     dtmcliqs.Main,
+	"dtmgrpc-qs":    dtmgrpcqs.Main,
 	"workflow-http": workflowhttp.Main,
 	"workflow-grpc": workflowgrpc.Main,
 }
