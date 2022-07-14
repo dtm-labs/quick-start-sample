@@ -2,7 +2,7 @@ module github.com/dtm-labs/quick-start-sample
 
 go 1.16
 
-replace github.com/dtm-labs/client => ../client
+// replace github.com/dtm-labs/client => ../client
 
 require (
 	github.com/dtm-labs/client v1.15.1
