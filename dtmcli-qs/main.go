@@ -1,4 +1,4 @@
-package dtmcliqs
+package main
 
 import (
 	"fmt"
@@ -15,7 +15,7 @@ const qsBusiPort = 8082
 
 var qsBusi = fmt.Sprintf("http://localhost:%d%s", qsBusiPort, qsBusiAPI)
 
-func Main() {
+func main() {
 	QsStartSvr()
 	_ = QsFireRequest()
 	time.Sleep(3 * time.Second)

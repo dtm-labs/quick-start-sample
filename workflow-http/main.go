@@ -1,4 +1,4 @@
-package workflowhttp
+package main
 
 import (
 	"encoding/json"
@@ -19,7 +19,7 @@ const qsBusiPort = 8082
 
 var qsBusi = fmt.Sprintf("http://localhost:%d%s", qsBusiPort, qsBusiAPI)
 
-func Main() {
+func main() {
 	QsStartSvr()
 	_ = QsFireRequest()
 	select {}

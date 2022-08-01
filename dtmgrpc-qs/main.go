@@ -1,4 +1,4 @@
-package dtmgrpcqs
+package main
 
 import (
 	"time"
@@ -9,7 +9,7 @@ import (
 	"github.com/lithammer/shortuuid/v3"
 )
 
-func Main() {
+func main() {
 	s := busi.GrpcNewServer()
 	busi.GrpcStartup(s)
 	logger.Infof("grpc simple transaction begin")

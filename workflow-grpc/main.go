@@ -1,4 +1,4 @@
-package workflowgrpc
+package main
 
 import (
 	"github.com/dtm-labs/client/dtmcli"
@@ -13,7 +13,7 @@ import (
 
 var busiCli busi.BusiClient
 
-func Main() {
+func main() {
 	s := busi.GrpcNewServer()
 	workflow.InitGrpc(busi.DtmGrpcServer, busi.BusiGrpc, s)
 	busi.GrpcStartup(s)

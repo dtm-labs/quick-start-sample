@@ -10,8 +10,7 @@ client/dtmgrpc的最简go使用示例
 ### 启动示例
 
 ``` bash
-# 在仓库的根目录下，quick-start-sample/
-go run main.go dtmgrpc-qs
+go run main.go
 ```
 
 ### 输出

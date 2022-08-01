@@ -12,8 +12,7 @@ Refer to [dtm installation and running](https://en.dtm.pub/guide/install.html)
 ### Startup example
 
 ``` bash
-# in repo root path quick-start-sample/
-go run main.go dtmgrpc-qs
+go run main.go
 ```
 
 ### Output
