@@ -1,6 +1,8 @@
 package main
 
 import (
+	"time"
+
 	"github.com/dtm-labs/client/dtmcli"
 	"github.com/dtm-labs/client/dtmcli/logger"
 	"github.com/dtm-labs/client/workflow"
@@ -50,4 +52,5 @@ func main() {
 	logger.FatalIfError(err)
 	err = workflow.Execute(wfName, shortuuid.New(), data)
 	logger.Infof("result of workflow.Execute is: %v", err)
+	time.Sleep(3 * time.Second)
 }

@@ -22,7 +22,7 @@ var qsBusi = fmt.Sprintf("http://localhost:%d%s", qsBusiPort, qsBusiAPI)
 func main() {
 	QsStartSvr()
 	_ = QsFireRequest()
-	select {}
+	time.Sleep(3 * time.Second)
 }
 
 // QsStartSvr quick start: start server
