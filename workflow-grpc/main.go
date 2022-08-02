@@ -47,7 +47,7 @@ func main() {
 	})
 	logger.FatalIfError(err)
 
-	req := busi.BusiReq{Amount: 30}
+	req := busi.BusiReq{Amount: 30, TransInResult: "FAILURE"}
 	data, err := proto.Marshal(&req)
 	logger.FatalIfError(err)
 	err = workflow.Execute(wfName, shortuuid.New(), data)
