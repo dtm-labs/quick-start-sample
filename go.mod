@@ -5,7 +5,7 @@ go 1.16
 // replace github.com/dtm-labs/client => ../client
 
 require (
-	github.com/dtm-labs/client v1.16.4
+	github.com/dtm-labs/client v1.16.5
 	github.com/gin-gonic/gin v1.8.1
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/klauspost/compress v1.15.12 // indirect
