@@ -1,4 +1,4 @@
-# workflow-grpc
+# workflow-http
 client/workflow的最简http使用示例
 
 ## 快速开始
